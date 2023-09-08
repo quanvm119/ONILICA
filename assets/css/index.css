@@ -1,0 +1,116 @@
+.row-custom1 {
+  position: relative;
+  top: 8px;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
+}
+
+.image-custom {
+  width: 500px;
+  height: 350px;
+  overflow: hidden;
+  height: auto;
+}
+
+.index-title {
+  color: #00057d;
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.index-content {
+  color: #00057d;
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+.image-background {
+  width: 100%;
+  max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng gốc */
+  height: auto; /* Đảm bảo tỷ lệ chiều rộng/chiều cao không bị thay đổi */
+}
+
+.image-square {
+  width: 18px; /* Đổi giá trị tùy theo kích thước mong muốn */
+  height: auto; /* Đảm bảo tỷ lệ chiều rộng/chiều cao không bị thay đổi */
+}
+
+.content4 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #00057d;
+  text-align: center;
+}
+
+.content3 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  text-align: center;
+  color: #323232;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+/* CSS cho tab-content */
+.tab-content {
+  text-align: center; /* Căn lề giữa nội dung trong tab */
+}
+
+/* CSS cho pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Khoảng cách từ nội dung tab-content */
+}
+
+.page-btn,
+.prev-btn,
+.next-btn {
+  margin: 0 5px; /* Khoảng cách giữa các nút trong pagination */
+}
+
+.image-grid {
+  width: 100px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.btn-grid {
+  position: relative;
+  left: 13px;
+  font-size: small;
+}
+
+.nav-tab-grid {
+  position: relative;
+  left: 10px;
+}
+
+.nav-link {
+  color: #000; /* Màu chữ mặc định */
+  font-weight: 600;
+  font-size: medium;
+}
+
+
+.nav-link:hover {
+  font-weight: bold; /* Độ đậm khi trỏ chuột vào */
+  color: #00057d; /* Màu chữ khi trỏ chuột vào */
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #00057d; /* Màu chữ trong trạng thái active */
+}
